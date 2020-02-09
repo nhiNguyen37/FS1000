@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>Puppy Age Calculator</title>
+	<script type="text/javascript" src="script.js"></script>
+	<script>
+		let age= prompt("Please enter the age of your puppy");
+		if(!age)
+		{
+			document.writeln("You have entered invalid age. Please retry by refreshing the page");
+		}
+		else
+		{
+			newage = calculateDogAge(age);
+			document.write(`Your doggie is ${newage} years old in dog years!`);
+		}
+	</script>
+</head>
+<body>
+</body>
+</html>
